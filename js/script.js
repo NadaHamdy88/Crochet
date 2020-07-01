@@ -8,8 +8,8 @@ $(document).ready(function(){
 
      // Show selling when click on button
      $('.home-btn').click(function(){
-        $(this).show(function(){
-            $('.selling').show()
+        $(this).fadeOut(function(){
+            $('.selling').fadeIn()
         })
        
     }); 
@@ -36,8 +36,8 @@ $(document).ready(function(){
   
      //Show bag-steps when click on button
      $('.more').click(function(){
-        $(this).show(function(){
-            $('.bag-steps').show()
+        $(this).fadeOut(function(){
+            $('.bag-steps').fadeIn()
         })
    });
 

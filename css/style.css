@@ -183,8 +183,8 @@ header .icon{
     position: absolute;
     left: 0;
     background: #e2dedb;
-    margin-top: 8px;
-    padding: 12px;
+    margin-top: 10px;
+    padding: 7px 12px;
     border-radius: 0;
     white-space: nowrap;
     opacity: 0; 
@@ -368,7 +368,7 @@ header .icon{
     outline: 0;
 }
 .selling{
-    margin-top: 30px;
+    margin: 30px 0;
     display: none;
 }
 /* media for section home */
@@ -569,7 +569,7 @@ header .icon{
 }
 .material-btn .learn,
 .material-btn .by{
-    margin-top: 25px;
+    margin: 25px 0;
 }
 .material-btn .by{
     margin-left: 10px;
@@ -631,6 +631,7 @@ header .icon{
 }
 .material-btn{
     text-align: center;
+
 }
 .material-btn button{
     background: var(--mainColor);
@@ -742,26 +743,31 @@ header .icon{
     text-decoration: none;
     display: block;
     margin-bottom: 30px;
-
+    
 }
 .learn-second .learn-info{
     background: #ddd;
 }
 .learn-second .learn-info img{
-    width: 100%;    
+    width: 100%; 
 }
 .learn-second .learn-info img.acces{
     width: 100%;
-    height: 118px;
+    /* height: 118px; */
+    height: 143px;
 }
 .learn-second .learn-info img.img-steps{
     width: 100%;
-    height: 157px;
+    height: 190px;
 }
 .learn-second .learn-info-title,
 .learn-second .learn-info-title-acce,
+.learn-second .learn-info-title-chain,
 .learn-second .learn-info-title-steps1,
-.learn-second .learn-info-title-steps2{
+.learn-second .learn-info-title-steps2,
+.learn-second .learn-info-title-steps3,
+.learn-second .learn-info-title-steps5,
+.learn-second .learn-info-title-steps6{
     color: #222;
     font-size: 19px;
     padding: 10px;
@@ -772,12 +778,26 @@ header .icon{
     font-size: 18px;
     padding-bottom: 12px;
 }
+.learn-second .learn-info-title-chain{
+    font-size: 22px;
+    padding: 22px 0;
+}
 .learn-second .learn-info-title-steps1{
-    padding: 80px 10px;
+    padding: 105px 10px;
 }
 .learn-second .learn-info-title-steps2{
+    padding: 93px 10px;
+}
+.learn-second .learn-info-title-steps3{
     padding: 52px 10px;
 }
+.learn-second .learn-info-title-steps5{
+    padding: 38px 10px;
+}
+.learn-second .learn-info-title-steps6{
+    padding: 24px 10px;
+}
+
 .learn button,
 .if button.ask{
     display: block;
@@ -824,6 +844,51 @@ p.if{
 }
 .bag-steps{
     display: none;
+}
+
+/************************* scarf.html **************************/
+.learn-second-scarf{
+    margin-top: 20px;
+    padding-left: 100px;
+}
+.learn-second-scarf a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.learn-second-scarf .learn-info{
+    background: #ddd;
+}
+.learn-second-scarf .learn-info img{
+    width: auto; 
+}
+.learn-second-scarf .learn-info-title{
+    color: #222;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: static;
+}
+.learn-second .learn-info-title-steps1-scarf,
+.learn-second .learn-info-title-steps5-scarf,
+.learn-second .learn-info-title-steps6-scarf{
+    color: #222;
+    font-size: 19px;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: static;
+}
+.learn-second .learn-info-title-steps1-scarf{
+    padding: 65px 10px;
+}
+.learn-second .learn-info-title-steps6-scarf{
+    padding: 52px 10px;
+}
+.learn-second .learn-info-title-steps5-scarf{
+    padding: 24px 10px;
+}
+.learn-second .learn-info-title-steps6-scarf{
+    padding: 52px 10px;
 }
 
 /* media for learn how */
