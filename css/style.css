@@ -753,7 +753,6 @@ header .icon{
 }
 .learn-second .learn-info img.acces{
     width: 100%;
-    /* height: 118px; */
     height: 143px;
 }
 .learn-second .learn-info img.img-steps{
@@ -767,7 +766,8 @@ header .icon{
 .learn-second .learn-info-title-steps2,
 .learn-second .learn-info-title-steps3,
 .learn-second .learn-info-title-steps5,
-.learn-second .learn-info-title-steps6{
+.learn-second .learn-info-title-steps6,
+.learn-second .learn-info-title-steps8{
     color: #222;
     font-size: 19px;
     padding: 10px;
@@ -796,6 +796,9 @@ header .icon{
 }
 .learn-second .learn-info-title-steps6{
     padding: 24px 10px;
+}
+.learn-second .learn-info-title-steps8{
+    padding: 80px 10px;
 }
 
 .learn button,
@@ -849,7 +852,7 @@ p.if{
 /************************* scarf.html **************************/
 .learn-second-scarf{
     margin-top: 20px;
-    padding-left: 100px;
+    padding-left: 163px;
 }
 .learn-second-scarf a{
     text-decoration: none;
@@ -879,17 +882,15 @@ p.if{
     font-family: static;
 }
 .learn-second .learn-info-title-steps1-scarf{
-    padding: 65px 10px;
+    padding: 52px 10px;
 }
 .learn-second .learn-info-title-steps6-scarf{
-    padding: 52px 10px;
+    padding: 38px 10px;
 }
 .learn-second .learn-info-title-steps5-scarf{
     padding: 24px 10px;
 }
-.learn-second .learn-info-title-steps6-scarf{
-    padding: 52px 10px;
-}
+
 
 /* media for learn how */
 @media(max-width:991px){
