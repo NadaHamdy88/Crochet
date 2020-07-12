@@ -535,7 +535,7 @@ header .icon{
 /* media for section products */
 @media(max-width: 565px){
     .products-menu button{
-        padding: 8px 5px;
+        padding: 8px 3px;
     }
 }
 
@@ -645,7 +645,7 @@ header .icon{
     outline: 0;
 }
 /* media for section materials */
-@media(min-width:500px) and (max-width:769px){
+@media(min-width:400px) and (max-width:769px){
     .materials-img1 img{
         margin-bottom: 15px;
     }
@@ -898,14 +898,23 @@ p.if{
         padding-top :20px;
     }
     .learn h4{
-        font-size: 13px;
+        /* font-size: 13px; */
+        font-size: 10px;
     }
     .learn h5{
+        /* font-size: 15px; */
+        font-size: 12px;
+    }
+    .learn p{
         font-size: 15px;
     }
+    .learn-second .learn-info-title-chain{
+        padding: 10px;
+        font-size: 19px;
+    }
     .learn-second .learn-info-title-acce{
-        font-size: 16px;
-        padding: 0px 10px;
+        font-size: 19px;
+        padding: 10px;
     }
     .bag-steps h4{
         font-size: 20px;
@@ -914,7 +923,13 @@ p.if{
         height: 178px;
     }
     p.if{
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .if button.ask{
+        margin-top: 8px;
+    }
+    .learn-second-scarf{
+        padding-left: 37px;
     }
 
 }
@@ -1073,4 +1088,14 @@ p.if{
 .form-contact .sub .sub2{
     background: #080;
 }
+/* media for contact */
+@media(max-width:400px){
+    .form-contact textarea{
+        height: 100px;
+    }
+    .form-contact .sub .sub1{
+        margin-bottom: 15px;
+    }
+}
+
 
